@@ -14,7 +14,7 @@ const client = new Client({
     partials: ["USER", "CHANNEL", "GUILD_MEMBER", "MESSAGE", "REACTION"]
 });
 
-client.login("MTM3ODQzMTk4NTYyOTkyMTQwMQ.GqbWgz.ZJYVKEC9E_71HgFq8yWJCifZfsuTRRoOckWIlQ"); // remplacer par le token du bot
+client.login("MTM3ODQzMTk4NTYyOTkyMTQwMQ.G_xnYG.AF1PjAWDBBdJIK9EIrHOOUfww0ghg0xQqN8GPw"); // remplacer par le token du bot
 client.commands = new Collection();
 
 const { GiveawaysManager } = require('discord-giveaways');
